@@ -16,4 +16,4 @@
 
 
 ## Program Output:
-(imageGrayScaleConverter/Screenshot 2024-11-25 135730.png)
+!(imageGrayScaleConverter/Screenshot 2024-11-25 135730.png)
