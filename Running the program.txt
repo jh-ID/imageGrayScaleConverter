@@ -1,0 +1,6 @@
+nasm -f win64 imgCvtGrayDoubleToIntA.asm
+gcc -c imgCvtGrayDoubleToIntC.c -o imgCvtGrayDoubleToIntC.obj -m64
+gcc imgCvtGrayDoubleToIntC.obj imgCvtGrayDoubleToIntA.obj -o CvtGrayDoubleToIntC.exe -m64
+./CvtGrayDoubleToIntC.exe
+
+
